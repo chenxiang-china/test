@@ -15,6 +15,8 @@ public class JedisTest {
 	@SuppressWarnings("resource")
 	@Test
 	public void testConnection() throws Exception {
+		
+		System.out.println("Hello World");
 		//连接redis数据库
 		
 		//创建jedis连接对象
